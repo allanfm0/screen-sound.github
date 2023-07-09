@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Screen Sound"
   ],
-  "SelectedNode": "\\Screen Sound.sln (Screen Sound\\Screen Sound.sln)",
+  "SelectedNode": "\\Screen Sound\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
