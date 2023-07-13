@@ -1,8 +1,8 @@
 ﻿string messageDeBoasVindas = "Bem vindo ao Screen Sound.";
 //List<string> listaDasBandas = new List<string> { "Linkin Park", "Queen"};   
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
-bandasRegistradas.Add("linkin Park", new List<int>());
-bandasRegistradas.Add("The beatles", new List<int>());
+//bandasRegistradas.Add("Linkin Park", new List<int>());
+//bandasRegistradas.Add("The beatles", new List<int>());
 
 void ExibirLogo()
 {
@@ -24,11 +24,11 @@ void ExibirOpcoesDoMenu()
     Console.WriteLine("\nDigite 1 para registrar uma banda.");
     Console.WriteLine("Digite 2 para mostrar todas as bandas.");
     Console.WriteLine("Digite 3 para avaliar uma banda.");
-    Console.WriteLine("Digite 4 para exibit a media de uma banda.");
+    Console.WriteLine("Digite 4 para exibir a media de uma banda.");
     Console.WriteLine("Digite -1 para sair do programa.");
 
     Console.Write("\nEscolha uma opcao: ");
-    string input = Console.ReadLine();
+    string input = Console.ReadLine()!;
     int inputNumber = int.Parse(input);
 
     switch (inputNumber)
@@ -43,7 +43,7 @@ void ExibirOpcoesDoMenu()
             AvaliarBanda();
             break;
         case 4:
-            Console.WriteLine("Voce escolheu a opcao: " + inputNumber);
+            ExibirMedia();
             break;
         case -1:
             Console.WriteLine("Voce saiu do programa!");
@@ -93,7 +93,6 @@ void RegistrarBanda()
 }
 void ExibirTitulo(string titulo)
 {
-    int tamanho = titulo.Length;
     string character = string.Empty.PadLeft(titulo.Length, '-');    
     Console.WriteLine(character);
     Console.WriteLine(titulo);
@@ -124,6 +123,33 @@ void AvaliarBanda()
         Console.Clear();
         ExibirOpcoesDoMenu();
     }
+    
+}
+void ExibirMedia()
+{
+    Console.Clear();
+    ExibirTitulo("Media da banda:");
+    Console.Write("Digite o nome da banda que voce deseja ver a media: ");
+    string input = Console.ReadLine()!;
+    if (bandasRegistradas.ContainsKey(input))
+    {
+        List<int> notaDaBanda = bandasRegistradas[input];
+        Console.WriteLine($"\nA nota da banda {input} eh: {notaDaBanda.Average()}.");
+        Console.WriteLine("Pressione ENTER para voltar ao menu principal...");
+        Console.ReadKey();
+        Console.Clear();
+        ExibirOpcoesDoMenu();
+    }
+    else
+    {
+        Console.WriteLine($"A banda {input} nao existe!");
+        Console.WriteLine("Pressione ENTER para voltar ao menu principal...");
+        Console.ReadKey(); 
+        Console.Clear();
+        ExibirOpcoesDoMenu();
+    }
+
+
 }
 
 ExibirOpcoesDoMenu();
