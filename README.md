@@ -15,3 +15,9 @@
     - Dictionary which is a collection of key-value pairs, where each key is unique and associated with a corresponding value. It's a useful data structure for storing related information that needs to be accessed based on a specific key.
     - Keys and values ​​can be of any type as long as the key is unique. To access the value of a given key-value pair, simply use the corresponding key.
     - We have developed a return method in C# that serves to return a specific value or object to the method caller.
+ 
+- C#: Applying Object Orientation.
+    - We developed a music template with the following attributes: name, artist, genre, duration and availability. We use the concept of classes and attributes to represent this information.
+    - We create a new type of variable called Music and repeat the process of assigning values ​​to its attributes. Again, we use the Console.WriteLine command to display the second song's information in the console.
+    - We assign a method called DisplayFichaTecnica() with void return. This method was created to display the song's technical sheet, that is, all information about the song is displayed on the console when we call this method.
+  
