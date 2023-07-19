@@ -1,14 +1,16 @@
 ﻿Musica musica = new Musica();
-musica.nome = "Do i wanna know?";
-musica.artista = "Artic Monkeys";
-musica.duracao = 273;
-musica.disponivel = true;   
+musica.Nome = "Do i wanna know?";
+musica.Artista = "Artic Monkeys";
+musica.Duracao = 273;
+musica.Disponivel = true;
+Console.WriteLine(musica.DescricaoResumida);
 
 Musica musica2 = new Musica();
-musica2.nome = "bellyache";
-musica2.artista = "bille eilsh";
-musica2.duracao = 367;
-musica2.disponivel = false;
+musica2.Nome = "bellyache";
+musica2.Artista = "bille eilsh";
+musica2.Duracao = 367;
+musica2.Disponivel = false; 
+Console.WriteLine(musica2.DescricaoResumida);
 
 musica.ExibirFichaTecnica();
 musica2.ExibirFichaTecnica();
