@@ -21,3 +21,7 @@
     - We fixed a system vulnerability that allowed changing the value of an attribute, violating the application's business rule by creating reading and writing methods (get and set).
     - We create a property in C#, which is good programming practice because it allows you to encapsulate access to attributes of a class, providing control, validation, and the possibility of adding additional behaviors to accessing these attributes.
     - We changed the get method of a property in C# to add custom logic before returning the corresponding attribute value.
+- Integrating classes and defining relationships:
+    - We created a model for the album as a class, reinforcing the practice of keeping each class in its own file, and the methods AddMusic and DuracaoTotal were discussed, showing how to add and list the songs.
+    - We created a list of songs as a private field of the class, modified AddMusica using the "Add" method of the list to add songs, modified the method DuracaoTotal using the "Sum" method of the list to calculate the total duration of the songs and tests were performed relating songs to the album.
+    - We display the list of songs in the album, showing the name of each song, in addition to displaying the total duration of the album through the method DisplayMusicasFromAlbum.

@@ -1,16 +1,15 @@
-﻿Musica musica = new Musica();
-musica.Nome = "Do i wanna know?";
-musica.Artista = "Artic Monkeys";
-musica.Duracao = 273;
-musica.Disponivel = true;
-Console.WriteLine(musica.DescricaoResumida);
+﻿Album albumDoQueen =  new Album();
+albumDoQueen.Nome = "A nigth at the opera";
+
+Musica musica1 = new Musica();
+musica1.Nome = "Love of My life";
+musica1.Duracao = 213;
 
 Musica musica2 = new Musica();
-musica2.Nome = "bellyache";
-musica2.Artista = "bille eilsh";
-musica2.Duracao = 367;
-musica2.Disponivel = false; 
-Console.WriteLine(musica2.DescricaoResumida);
+musica2.Nome = "Bohemiam Rhapsody";
+musica2.Duracao = 345;
 
-musica.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
+albumDoQueen.AdicionarMusica(musica1);
+albumDoQueen.AdicionarMusica(musica2);
+
+albumDoQueen.ExibirMusicasDoAlbum();
