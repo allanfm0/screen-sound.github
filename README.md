@@ -25,3 +25,7 @@
     - We created a model for the album as a class, reinforcing the practice of keeping each class in its own file, and the methods AddMusic and DuracaoTotal were discussed, showing how to add and list the songs.
     - We created a list of songs as a private field of the class, modified AddMusica using the "Add" method of the list to add songs, modified the method DuracaoTotal using the "Sum" method of the list to calculate the total duration of the songs and tests were performed relating songs to the album.
     - We display the list of songs in the album, showing the name of each song, in addition to displaying the total duration of the album through the method DisplayMusicasFromAlbum.
+- Band builder:
+    - We created a new class called Banda which has 2 methods: one to add an album and another to display the band's discography.
+    - We learned the importance of a constructor and developed one for the Banda class in a practical way, initializing its attributes or performing other necessary tasks before using the object.
+    - We integrate all classes of our application: Music, Album and Band and define a relationship between them.
