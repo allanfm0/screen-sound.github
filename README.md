@@ -29,3 +29,6 @@
     - We created a new class called Banda which has 2 methods: one to add an album and another to display the band's discography.
     - We learned the importance of a constructor and developed one for the Banda class in a practical way, initializing its attributes or performing other necessary tasks before using the object.
     - We integrate all classes of our application: Music, Album and Band and define a relationship between them.
+- Organizing the project:
+    - We apply the ScreenSound.Models namespace to the Album, Band and Musica classes, separating their files in the Models folder.
+    - We applied the Banda and Album classes in the Program.cs file, making our application more object-oriented. A highlight is the encapsulation of notes as part of a band, making the code cleaner and easier to maintain in the future.
