@@ -32,3 +32,7 @@
 - Organizing the project:
     - We apply the ScreenSound.Models namespace to the Album, Band and Musica classes, separating their files in the Models folder.
     - We applied the Banda and Album classes in the Program.cs file, making our application more object-oriented. A highlight is the encapsulation of notes as part of a band, making the code cleaner and easier to maintain in the future.
+- Assessment class:
+    - visibility modified by the internal and public reserved words. Internal classes can only be seen inside a project. Public classes are seen by any project that references them.
+    - A method does not access information from the objects of the class where it is declared, it can be indicated as static. Just use the static keyword in your signature. And to be invoked, we use the model Tipo.MetodoEstatico(). Examples of static methods that we've been using since the first courses: Console.WriteLine(), int.Parse(), Thread.Sleep(), Console.Clear(), among others.
+    - 
