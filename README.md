@@ -40,3 +40,13 @@
 - Alternative to attach similarities:
     - Inheritance is not the only way to include behaviors and characteristics common to a type. Interfaces are lighter, more abstract types that can be used to ensure that different hierarchical types implement the same methods and properties.
     - Interfaces do not have concrete code and cannot be instantiated through new.
+- using an open ia in the project:
+    - ====================================================================================
+        using ScreenSound;
+        using ScreenSound. Menus;
+        using ScreenSound. Modelos;
+        using OpenAI_API;
+
+        var client = new OpenAIAPI("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");
+    - ====================================================================================
+
