@@ -49,4 +49,6 @@
 
         var client = new OpenAIAPI("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");
     - ====================================================================================
-
+- Integrating an external API:
+    - We explored the importance of making requests using the C# HttpClient class to interact with APIs. We learned how to create a request and receive the corresponding response from the server.
+    - We highlight the need to handle errors when making the request, using try-catch to catch exceptions that may occur during the process. This allows us to handle unexpected situations properly and provide a more robust experience for our application users.
