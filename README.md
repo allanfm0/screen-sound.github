@@ -36,7 +36,7 @@
     - visibility modified by the internal and public reserved words. Internal classes can only be seen inside a project. Public classes are seen by any project that references them.
     - A method does not access information from the objects of the class where it is declared, it can be indicated as static. Just use the static keyword in your signature. And to be invoked, we use the model Tipo.MetodoEstatico(). Examples of static methods that we've been using since the first courses: Console.WriteLine(), int.Parse(), Thread.Sleep(), Console.Clear(), among others.
 - Common menu behaviors:
-    -In inheritance, ancestor classes can have behaviors replaced or overridden by their descendants. To indicate this possibility, we declare the member in the ancestor as virtual, and in the descendant that is going to overwrite it, we mark the class member with override. If we still want to run the piece of code that's in the ancestor, we use the base keyword.
+    - In inheritance, ancestor classes can have behaviors replaced or overridden by their descendants. To indicate this possibility, we declare the member in the ancestor as virtual, and in the descendant that is going to overwrite it, we mark the class member with override. If we still want to run the piece of code that's in the ancestor, we use the base keyword.
 - Alternative to attach similarities:
     - Inheritance is not the only way to include behaviors and characteristics common to a type. Interfaces are lighter, more abstract types that can be used to ensure that different hierarchical types implement the same methods and properties.
     - Interfaces do not have concrete code and cannot be instantiated through new.
