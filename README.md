@@ -52,3 +52,6 @@
 - Integrating an external API:
     - We explored the importance of making requests using the C# HttpClient class to interact with APIs. We learned how to create a request and receive the corresponding response from the server.
     - We highlight the need to handle errors when making the request, using try-catch to catch exceptions that may occur during the process. This allows us to handle unexpected situations properly and provide a more robust experience for our application users.
+- linq and sort:
+    - We create a class with properties mapped to some API fields with JsonProperyName and perform the deserialization of the response.
+    -   We deserialize the received data into a format suitable for manipulation in our code. Serialization allows us to convert data received in a format like JSON into objects that we can work with in our program, making it easier to manipulate and extract the relevant information.
