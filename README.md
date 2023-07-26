@@ -58,3 +58,6 @@
 - LINQ:
     - We applied LINQ (Language Integrated Query) in C# and saw that it is important because it offers a powerful and expressive way to perform queries and data manipulations in various sources, such as collections, databases and web services. With LINQ, we can simplify our code, improve readability and increase our productivity during development.
     - We understand that we can perform a wide variety of operations such as selecting, filtering, sorting, designing, grouping and joining data from different sources easily and efficiently.   
+- Creating files with C#:
+    - We created a list with our 5 favorite songs and used C# to create a JSON file containing the name of the playlist and the songs.
+    - We explored how to link the JSON file with the application's frontend, enabling the display of each person's favorite songs.
