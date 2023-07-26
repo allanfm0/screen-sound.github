@@ -55,3 +55,6 @@
 - linq and sort:
     - We create a class with properties mapped to some API fields with JsonProperyName and perform the deserialization of the response.
     -   We deserialize the received data into a format suitable for manipulation in our code. Serialization allows us to convert data received in a format like JSON into objects that we can work with in our program, making it easier to manipulate and extract the relevant information.
+- LINQ:
+    - We applied LINQ (Language Integrated Query) in C# and saw that it is important because it offers a powerful and expressive way to perform queries and data manipulations in various sources, such as collections, databases and web services. With LINQ, we can simplify our code, improve readability and increase our productivity during development.
+    - We understand that we can perform a wide variety of operations such as selecting, filtering, sorting, designing, grouping and joining data from different sources easily and efficiently.   
